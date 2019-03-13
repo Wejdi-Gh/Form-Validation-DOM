@@ -1,0 +1,47 @@
+
+body {
+    margin :0;
+    padding: 0;
+    height: 100vh;
+    display : flex ; 
+    background-color: #4B3347 ;
+   }
+
+   .information  {
+   margin : auto ;
+   }
+
+.information form {
+ display : flex ; 
+ flex-direction : column;
+ justify-content: space-around;
+ height: 90vh;
+ color : white;
+ font-weight: bold;
+}
+ form button {
+ width :300px;
+height: 40px; 
+background-color: #2A293C;
+color : white;
+font-weight: bold;
+border : 1px inset #2A293C;
+border-radius: 5px;
+   }
+form input  {
+width : 300px;
+height: 25px;
+background-color: #2A293C;
+color : white;
+border : 1px inset #2A293C;
+border-radius: 5px;
+}
+
+form textarea {
+width : 300px;
+height: 57px;
+background-color: #2A293C;
+color : white;
+border : 1px inset #2A293C;
+border-radius: 5px;
+    }
